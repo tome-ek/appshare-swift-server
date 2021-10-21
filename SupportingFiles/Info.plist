@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_URL</key>
+	<string>$(API_URL)</string>
+	<key>API_TOKEN</key>
+	<string>$(API_TOKEN)</string>
+	<key>FIR_STORAGE_BUCKET</key>
+	<string>$(FIR_STORAGE_BUCKET)</string>
+	<key>FIR_PROJECT_ID</key>
+	<string>$(FIR_PROJECT_ID)</string>
+	<key>FIR_BUNDLE_ID</key>
+	<string>$(FIR_BUNDLE_ID)</string>
+	<key>FIR_CLIENT_ID</key>
+	<string>$(FIR_CLIENT_ID)</string>
+	<key>FIR_API_KEY</key>
+	<string>$(FIR_API_KEY)</string>
+	<key>FIR_GCM_SENDER_ID</key>
+	<string>$(FIR_GCM_SENDER_ID)</string>
+	<key>FIR_GOOGLE_APP_ID</key>
+	<string>$(FIR_GOOGLE_APP_ID)</string>
+	<key>DATABSE_FILENAME</key>
+	<string>$(DATABSE_FILENAME)</string>
+	<key>SERVER_PORT</key>
+	<string>$(SERVER_PORT)</string>
+	<key>BUCKET_URL</key>
+	<string>gs://$(BUCKET_URL)</string>
+	<key>AES_KEY</key>
+	<string>$(AES_KEY)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleName</key>
+	<string>AppshareMacOSOG</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+</dict>
+</plist>

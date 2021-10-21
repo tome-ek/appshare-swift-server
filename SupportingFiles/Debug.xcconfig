@@ -1,0 +1,25 @@
+//
+//  Debug.xcconfig
+//  PhoneStreamer-iOS
+//
+//  Created by Prywatne on 23.08.21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SLASH=/
+
+AES_KEY = NsUPKpUjgSjbpJc8Yxo7CFnd5yIX4t+yYQB+XOGDDj4=
+API_URL = http:$(SLASH)/localhost:3000
+API_TOKEN = f159b845-37ef-4ad3-8012-f9261705e502
+BUCKET_URL = phone-streamer.appspot.com
+DATABSE_FILENAME = appshare_macos_db.sqlite
+FIR_API_KEY = AIzaSyCIAYinFf4_6u-qQt3Ee5pRaB_caFlvg-s
+FIR_BUNDLE_ID = com.appshare.macos.debug
+FIR_CLIENT_ID = 695416127576-0j3ji91dj6j7oak8kqfc424gfgo79cl5.apps.googleusercontent.com
+FIR_GOOGLE_APP_ID = 1:695416127576:ios:25a2215e20777e1f54ca2d
+FIR_GCM_SENDER_ID = 695416127576
+FIR_PROJECT_ID = phone-streamer
+FIR_STORAGE_BUCKET = phone-streamer.appspot.com
+SERVER_PORT = 4000
